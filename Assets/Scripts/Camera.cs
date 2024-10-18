@@ -13,7 +13,6 @@ public class Camera : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("here");
         rb = GetComponent<Rigidbody>();
     }
 
@@ -25,7 +24,6 @@ public class Camera : MonoBehaviour
 
     private void OnMove(InputValue value)
     {
-        Debug.Log("move");
         inputVec = value.Get<Vector3>();
     }
 }
