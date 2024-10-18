@@ -195,6 +195,16 @@ PrefabInstance:
       propertyPath: layerMask.m_Bits
       value: 128
       objectReference: {fileID: 0}
+    - target: {fileID: 5764341929760274182, guid: bf2ee7ddadc9dc44297a32594209307d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd4e31f415ab65f4d953c00a53099c01, type: 2}
+    - target: {fileID: 9170131033550278941, guid: bf2ee7ddadc9dc44297a32594209307d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 55a492a72329f6c4b8635f2e47e5f9e2, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
